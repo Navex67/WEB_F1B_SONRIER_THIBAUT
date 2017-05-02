@@ -1,0 +1,174 @@
+/*
+Theme Name: Theme site entreprise informatique
+Theme URI: ludus1B.com
+Author: Thibaut Sonrier
+Description: Theme css site web entreprise informatique
+Version:1.0
+License: Ludus1B
+License URI: Ludus1B.com
+Text Domain: ludus1B
+*/
+
+/* couleur du theme blanc et background turquoise*/
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	
+	nav{
+		font-size:34px;
+		margin-right: 154px;
+		margin-left: 164px;
+	}
+	
+	article{
+		font-size:30px;
+	}
+	
+	h3{
+		font-size:50px;
+	}
+	
+	#foot{
+		font-size:30px;
+		margin-right:170px;
+		
+	}
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	display:block;
+	border-radius:10px 10px 10px 10px;
+	border-radius:10px 10px 10px 10px;
+	
+}
+
+li {
+	display:inline-block;
+    float: left;
+	margin: 125px;	
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (red) on hover */
+li a:hover {
+    background-color: #ff6469;
+	border-radius:10px 10px 10px 10px;
+}
+ 
+ 
+h1{
+	text-align:center;
+}
+
+h3{
+	text-align:center;
+}
+body{
+	background-color:#44e2ab;
+	font-family: 'Asap', sans-serif;;
+}
+
+.imageflottante{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;			/*reduction de la taille initiale de l'image et la centrage*/
+	width: 434px;
+    height: 321px;
+
+}
+
+#logo{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#ubi{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width: 434px;
+    height: 321px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+#EA{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width: 296px;
+    height: 247px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+#apple{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	width: 296px;
+    height: 251px;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+#mass{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+	margin-top:10px;
+	width: 392px;
+}
+
+#bg{
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+	margin-top:10px;
+	width: 369px;
+	
+}
+article{
+	
+	text-align:justify;
+	margin:0 auto;
+	/*max-width: 800px;
+	min-width: 200px;*/
+	border:1px solid white;				/*effet de capsule pour les exemples pour les rendres plus lisibles et les distingués*/
+	padding:35px;
+	margin-bottom:50px; 
+	overflow: auto;
+	color:black;
+	background-color:white;
+	border-radius:10px 10px 10px 10px;
+	
+}
+
+footer{
+
+    overflow: hidden;
+    background-color: #333;
+	border-radius:10px 10px 10px 10px;
+	color:white;
+
+	
+}
+#foot{
+	margin-left:273px;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>RavDev</title>
+		<link rel="stylesheet" type="text/css" href="CSS.css">
+		<link rel="stylesheet" media="screen and (min-width: 1024px) and (max-width: 1280px)" href="mediaQ1.css" type="text/css"/>	
+		<link rel="stylesheet" media="screen and (max-device-width: 480px)" href="mediaQ2.css" type="text/css"/>
+		<link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
+	</head>
+	
+	<!-- balise block(retour a la ligne) = p, h1, etc ... balise inline = strong, mark, em-->
+	
+	<body>
+		<header>
+			<img src="image/RavDev.png" id="logo"/>
+		</header>
+		
+		
+		<nav>
+			<h3>MENU</h3>
+			<ul>
+				<li><a href="Main.html">Accueil</a></li>
+				<li><a href="Info_part.html">Nos partenaires</a></li>
+				<li><a href="projet.html">Nos projets</a></li>
+				<li><a href="contact.html">Contactez-nous </a></li>
+				
+			</ul>
+		</nav>
+		
+		
+		
+			
+			
+		<section>
+				<h1>Formulaire</h1>
+			<article>
+					<!--formulaire-->
+				
+					<form method="POST" action="#"><!--POST PERMET D'ENVOYER DES INFORMATIONS SANS PASSER DANS L'URL/GET PERMET D'ENVOYER DES INFORMATIONS EN PASSANT DANS L'URL-->
+						<!--contenu formulaire-->
+						<label for="nom">Nom</label> : <input type="text" name="nom" id="nom" placeholder="Nom :" autofocus />
+			
+						<label for="prenom">Prénom</label> : <input type="text" name="prenom" id="prenom" placeholder="Prenom :"/>
+						</br>
+						</br>
+						<label for="entreprise">Nom de votre entreprise</label> : <input type="text" name="entreprise" id="entreprise"/>
+						</br>
+						</br>
+						<label for="mail">Mail</label> : <input type="email" name="mail" id="mail" placeholder="Email :" required/>
+						<label for="tel">Numéro de télephone </label> : <input type="tel" name="tel" id="tel" placeholder="Tel :"/>
+						</br>
+						</br>
+						<label for="Pays">Votre pays : </label>
+						<select name="pays" id="pays">
+							<option value="France">France</option>
+							<option value="Allemagne">Allemagne</option>
+							<option value="UK">UK</option>
+							<option value="Canada">Canada</option>
+							<option value="USA">USA</option>
+							<option value="Chine">Chine</option>
+							<option value="Japon">Japon</option>
+							<option value="Pologne">Pologne</option>
+							<option value="Russie">Russie</option>
+							<option value="Irlande">Irlande</option>
+							<option value="Suède">Suéde</option>
+							<option value="Thailande">Thailande</option>
+						</select>
+						</br>
+						</br>
+						</br>
+						</br>
+						<label for="sujet">Sujet</label> : <input type="text" name="sujet" id="sujet" size="30"/>
+						</br>
+						
+						<label for="mes">Message : </label></br> <textarea type="textarea"  name="mes" id="mes" rows="10" cols="50"></textarea>
+						</br>
+						</br>
+						
+						<input type="submit" name="envoyer" value="Envoyer">
+		
+					
+					
+					</form>
+					
+					
+					
+			</article>		
+					
+					
+		</section>
+			
+				
+		
+		<footer>
+			<p id="foot">© 2017 RavDev Entertainment. All Rights Reserved. RavDev logo are trademarks of RavDev Entertainment in the EU and/or other countries.</p>
+		</footer>
+		
+		
+	</body>
+
+
+</html>
